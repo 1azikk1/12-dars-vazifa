@@ -5,3 +5,15 @@ def multiply_numbers(a, b):
 
 
 print(multiply_numbers(3, 5))
+
+
+# 2 - commit
+
+def divide_numbers(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "0 ga bo'lish mumkin emas!"
+
+
+print(divide_numbers(4, 2))
