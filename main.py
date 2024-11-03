@@ -17,3 +17,12 @@ def divide_numbers(a, b):
 
 
 print(divide_numbers(4, 2))
+
+# 3 - commit
+
+
+def subtract_num(a, b):
+    return a - b
+
+
+print(subtract_num(12, 4))
