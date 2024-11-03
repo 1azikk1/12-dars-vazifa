@@ -26,3 +26,13 @@ def subtract_num(a, b):
 
 
 print(subtract_num(12, 4))
+
+# branch 2 uchun o'zgartirish
+
+
+def greet_user(name, lastname):
+    return f"Assalomu alaykum {name} {lastname}"
+
+
+print(greet_user('Azizbek', 'Ahmadjonov'))
+
